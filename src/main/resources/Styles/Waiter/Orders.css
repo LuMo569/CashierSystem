@@ -1,0 +1,48 @@
+.orders Text {
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-font-size: 24;
+    -fx-font-family: "Lucida Console";
+}
+
+.orders Button:hover {
+    -fx-cursor:hand;
+}
+
+.walls {
+    -fx-fill: #3c3c3c;
+    -fx-stroke-width: 0;
+}
+
+.orders {
+    -fx-background-color: #EFE9E1;
+}
+
+.table {
+    -fx-fill: #181C14;
+}
+
+.table_btn {
+    -fx-background-color: #EFE9E1;
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-pref-width: 80;
+    -fx-pref-height: 40;
+    -fx-font-size: 14;
+    -fx-font-family: "Lucida Console";
+}
+
+.table_bar_btn {
+    -fx-background-color: #EFE9E1;
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-pref-width: 60;
+    -fx-pref-height: 30;
+    -fx-font-size: 12;
+    -fx-font-family: "Lucida Console";
+}
+
+.chair {
+    -fx-fill: #181c1438;
+}
+

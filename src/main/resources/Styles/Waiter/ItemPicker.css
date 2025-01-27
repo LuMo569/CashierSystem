@@ -1,0 +1,102 @@
+.item_picker {
+    -fx-background-color: #EFE9E1;
+}
+
+.item_picker Text {
+    -fx-font-size: 20;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+    -fx-font-weight: bold;
+}
+.item_picker Button:hover {
+    -fx-cursor:hand;
+}
+
+.item_picker_drinks {
+    -fx-background-color: "white";
+}
+
+.item_picker_food {
+    -fx-background-color: "white";
+}
+
+.quick_opt_container {
+    -fx-spacing: 20;
+    -fx-alignment: top_center;
+    -fx-padding: 10 0 0 0;
+}
+
+.quick_opt_container Button {
+    -fx-background-color: "white";
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+}
+
+.item_display_container {
+    -fx-background-color: "white";
+}
+
+.menu-button {
+    -fx-padding: 2.5;
+    -fx-wrap-text: true;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-font-size: 11;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: #111111;
+    -fx-pref-width: 80;
+    -fx-pref-height: 60;
+}
+.menu-button:hover {
+    -fx-opacity: 0.8;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.non-alcoholic {
+    -fx-background-color: #4FC3F7;
+}
+
+.alcoholic {
+    -fx-background-color: #388E3C;
+}
+
+.cocktail {
+    -fx-background-color: #BA68C8;
+}
+
+.main-food {
+    -fx-background-color: #FF7043;
+}
+
+.snack {
+    -fx-background-color: #FDD835;
+}
+
+.item_picker Rectangle{
+    -fx-effect: null;
+}
+
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #111111;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+.table-view{
+    -fx-background-color: #EFE9E1;
+}
+.table-row-cell {
+    -fx-text-fill: #111111;
+    -fx-font-size: 14;
+    -fx-font-family: "Lucida Console";
+}
+
+.danger_button {
+    -fx-background-color: #e14545;
+}

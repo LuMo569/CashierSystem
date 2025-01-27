@@ -1,0 +1,153 @@
+.reports {
+    -fx-background-color: #EFE9E1;
+}
+
+.reports Text {
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+
+.reports Label {
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-font-size: 14;
+    -fx-font-family: "Lucida Console";
+}
+
+.reports Button {
+    -fx-background-color: white;
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+
+.reports Button:hover {
+    -fx-cursor:hand;
+}
+
+.report_controller {
+    -fx-padding: 10 0 0 10;
+    -fx-background-color: white;
+}
+
+.report_controller Text {
+    -fx-font-size: 14;
+}
+
+.specific_report_controller {
+    -fx-padding: 10 0 0 0;
+    -fx-background-color: white;
+}
+
+#reset_btn {
+    -fx-background-color: #e14545;
+}
+
+.date-picker {
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 16;
+    -fx-effect: null;
+    -fx-background-color: white;
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+    -fx-cursor:hand;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color: white;
+}
+
+.year_selector, .month_selector {
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 16;
+    -fx-background-color: white;
+    -fx-border-radius: 5;
+    -fx-pref-height: 30;
+}
+
+.year_selector {
+    -fx-pref-width: 75;
+}
+
+.month_selector {
+    -fx-pref-width: 150;
+}
+
+.year_selector .arrow, .month_selector .arrow {
+    -fx-background-color: #111111;
+}
+
+.line {
+    -fx-stroke: #111111;
+    -fx-stroke-width: 1.5;
+}
+
+.error_lbl {
+    -fx-text-fill: #FF0000;
+}
+
+/* report breakdown styles */
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #111111;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-font-size: 12;
+    -fx-resizable: false;
+}
+
+/* TableRow- und TableCell-Styles */
+.table-row-cell {
+    -fx-wrap-text: true;
+    -fx-text-fill: #111111;
+    -fx-font-size: 14;
+    -fx-font-family: "Lucida Console";
+}
+
+/* Spalten-Stile */
+#orderDateColumn, #waiterColumn, #itemsColumn, #revenueColumn, #purchasePriceColumn, #profitColumn {
+    -fx-padding: 2px;
+    -fx-resizable: false;
+}
+
+#itemsColumn, #orderDateColumn {
+    -fx-wrap-text: true;
+    -fx-text-overrun: clip; /* Ensures no truncation */
+    -fx-padding: 2px;
+}
+
+#orderDateColumn {
+    -fx-pref-width: 150;
+    -fx-alignment: center;
+}
+
+#waiterColumn {
+    -fx-pref-width: 70;
+    -fx-alignment: center;
+}
+
+#itemsColumn {
+    -fx-pref-width: 320;
+}
+
+#revenueColumn, #purchasePriceColumn, #profitColumn {
+    -fx-pref-width: 140;
+    -fx-alignment: center;
+}
+

@@ -1,0 +1,49 @@
+.menu_container {
+    -fx-background-color: #181C14;
+    -fx-alignment: center;
+}
+.menu_container Button:hover {
+    -fx-cursor:hand;
+}
+
+
+.title_container {
+    -fx-alignment: center;
+}
+.title_container Text {
+    -fx-font-size: 20;
+    -fx-fill: #EFE9E1;
+    -fx-font-family: "Lucida Console";
+    -fx-font-weight: bold;
+}
+
+.control_btn_container {
+    -fx-spacing: 20;
+    -fx-alignment: top_center;
+    -fx-padding: 50 0 0 0;
+}
+
+.control_btn_container Button {
+    -fx-background-color: #EFE9E1;
+    -fx-text-fill: #111111;
+    -fx-alignment:center;
+    -fx-pref-width: 180;
+    -fx-pref-height: 30;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+}
+
+.logout_btn_container {
+    -fx-spacing: 15;
+    -fx-alignment: top_center;
+}
+
+.logout_btn_container Button {
+    -fx-background-color: #282925;
+    -fx-text-fill: #EFE9E1;
+    -fx-alignment:center;
+    -fx-pref-width: 180;
+    -fx-pref-height: 30;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+}

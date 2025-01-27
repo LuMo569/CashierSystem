@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" styleClass="orders" stylesheets="@../../Styles/Waiter/Orders.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cashiersystem.Controllers.Waiter.OrdersController">
+   <AnchorPane layoutY="860.0" prefHeight="240.0" prefWidth="240.0" styleClass="toilet" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="550.0">
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="240.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="140.0" layoutX="170.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="20.0" layoutX="20.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="220.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" />
+      <Text layoutX="52.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOILET" />
+      <Arc fill="#efe9e1" layoutX="190.0" layoutY="140.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.rightAnchor="60.0" />
+   </AnchorPane>
+   <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="540.0" prefWidth="300.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="540.0" layoutX="-6.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="20.0" layoutX="20.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="280.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="20.0" layoutX="20.0" layoutY="516.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="180.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="360.0" layoutX="276.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="180.0" />
+      <Text layoutX="99.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KITCHEN" AnchorPane.rightAnchor="99.7734375" AnchorPane.topAnchor="262.0625" />
+      <Arc fill="#efe9e1" layoutX="280.0" layoutY="530.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.rightAnchor="19.5" />
+      <Arc fill="#efe9e1" layoutX="312.0" layoutY="1.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+      <Arc fill="#efe9e1" layoutX="290.0" layoutY="180.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.bottomAnchor="360.0" AnchorPane.rightAnchor="10.0" />
+   </AnchorPane>
+   <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="20.0" layoutX="250.0" layoutY="780.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="740.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="190.0" layoutX="790.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="10.0" />
+   <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="20.0" layoutX="310.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="680.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="390.0" layoutX="970.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" styleClass="walls" width="20.0" />
+   <AnchorPane layoutX="310.0" layoutY="30.0" prefHeight="740.0" prefWidth="660.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="60.0" layoutX="57.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="350.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="160.0" />
+      <Rectangle arcHeight="0" arcWidth="0" fill="DODGERBLUE" height="160.0" layoutX="370.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="40.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="60.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="290.0" layoutY="630.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="265.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="472.0" layoutY="630.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="480.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="65.0" layoutY="406.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="291.0" layoutY="416.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="295.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="540.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="540.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" styleClass="table" width="100.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="180.0" />
+      <Circle fill="DODGERBLUE" layoutX="85.0" layoutY="245.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="230.0" />
+      <Circle fill="DODGERBLUE" layoutX="161.0" layoutY="257.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" AnchorPane.leftAnchor="135.0" AnchorPane.topAnchor="230.0" />
+      <Circle fill="DODGERBLUE" layoutX="233.0" layoutY="254.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="230.0" />
+      <Circle fill="DODGERBLUE" layoutX="283.0" layoutY="248.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" AnchorPane.leftAnchor="265.0" AnchorPane.topAnchor="230.0" />
+      <Circle fill="DODGERBLUE" layoutX="356.0" layoutY="258.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" AnchorPane.leftAnchor="330.0" AnchorPane.topAnchor="230.0" />
+      <Button fx:id="table4_btn" layoutX="60.0" layoutY="660.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 4" />
+      <Button fx:id="table5_btn" layoutX="275.0" layoutY="660.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 5" />
+      <Button fx:id="table6_btn" layoutX="490.0" layoutY="660.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 6" />
+      <Button fx:id="table2_btn" layoutX="90.0" layoutY="430.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 2" />
+      <Button fx:id="table3_btn" layoutX="305.0" layoutY="430.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 3" />
+      <Button fx:id="table1_btn" layoutX="560.0" layoutY="155.0" mnemonicParsing="false" styleClass="table_btn" text="TABLE 1" />
+      <Button fx:id="bar1_btn" layoutX="65.0" layoutY="175.0" mnemonicParsing="false" styleClass="table_bar_btn" text="BAR 1" />
+      <Button fx:id="bar2_btn" layoutX="130.0" layoutY="175.0" mnemonicParsing="false" styleClass="table_bar_btn" text="BAR 2" />
+      <Button fx:id="bar3_btn" layoutX="195.0" layoutY="175.0" mnemonicParsing="false" styleClass="table_bar_btn" text="BAR 3" />
+      <Button fx:id="bar4_btn" layoutX="260.0" layoutY="175.0" mnemonicParsing="false" styleClass="table_bar_btn" text="BAR 4" />
+      <Button fx:id="bar5_btn" layoutX="325.0" layoutY="175.0" mnemonicParsing="false" styleClass="table_bar_btn" text="BAR 5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="401.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="260.0" AnchorPane.rightAnchor="215.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="238.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="260.0" AnchorPane.rightAnchor="370.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="593.0" layoutY="653.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="435.0" layoutY="650.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="430.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="368.0" layoutY="650.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="370.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="172.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="260.0" AnchorPane.rightAnchor="430.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="28.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="223.0" layoutY="650.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="215.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="158.0" layoutY="660.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="155.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutY="660.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="500.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.rightAnchor="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="500.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="45.0" AnchorPane.rightAnchor="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="560.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="60.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="285.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="560.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" styleClass="chair" width="60.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+      <Text layoutX="214.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BAR" AnchorPane.rightAnchor="425.0" AnchorPane.topAnchor="80.0" />
+   </AnchorPane>
+   <Arc fill="#efe9e1" layoutX="1000.0" layoutY="420.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.rightAnchor="20.0" />
+   <Arc fill="#efe9e1" layoutX="1022.0" layoutY="499.0" length="90.0" radiusX="80.0" radiusY="80.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" AnchorPane.bottomAnchor="220.0" AnchorPane.rightAnchor="20.0" />
+</AnchorPane>

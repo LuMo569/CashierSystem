@@ -1,0 +1,158 @@
+.change_item_price_container {
+    -fx-background-color: #EFE9E1;
+}
+
+.change_item_price_container Button {
+    -fx-font-size: 18;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+}
+
+.change_item_price_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.header_text {
+    -fx-font-size: 20;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+}
+
+/* Styles for item selection section */
+.item_selection_container {
+    -fx-padding: 5 0 0 0;
+    -fx-alignment: center-left;
+    -fx-spacing: 20;
+}
+
+.item_search_container, .item_filter_container {
+    -fx-spacing: 10;
+}
+
+.item_selection_container Label {
+    -fx-font-size: 16;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+}
+
+.item_search_container{
+    -fx-pref-width: 200;
+}
+
+.item_filter_container {
+    -fx-pref-width: 250;
+}
+
+#item_name_text_field, #filter_choice_box {
+    -fx-pref-height: 30;
+    -fx-background-color: white;
+}
+
+#filter_choice_box .arrow {
+    -fx-background-color: #111111;
+}
+
+#search_btn {
+    -fx-pref-height: 30;
+    -fx-pref-width: 100;
+    -fx-background-color: white;
+}
+
+/* Styles for item display TableView */
+
+.item_display_table {
+    -fx-background-color: white;
+    -fx-font-size: 12;
+}
+
+.item_display_table .column-header {
+    -fx-background-color: #181C14;
+    -fx-pref-height: 40;
+}
+
+.item_display_table .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #EFE9E1;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+    -fx-pref-height: 30;
+}
+
+#items_id_column, #items_name_column, #items_curr_price_column {
+    -fx-alignment: center;
+}
+
+/* Styles for Log TabelView */
+
+.log_display_container {
+    -fx-background-color: white;
+    -fx-spacing: 10;
+    -fx-padding: 5;
+}
+
+.log_display_container Label {
+    -fx-text-fill: #111111;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+
+.log_display_table {
+    -fx-background-color: white;
+    -fx-font-size: 14;
+    -fx-font-family: "Lucida Console";
+}
+
+.log_display_table .column-header {
+    -fx-background-color: #181C14;
+    -fx-pref-height: 30;
+}
+
+.log_display_table .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #EFE9E1;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+    -fx-pref-height: 30;
+}
+
+#log_time_column {
+    -fx-wrap-text: true;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+}
+#log_text_column {
+    -fx-wrap-text: true;
+}
+
+/* Control Button Styles */
+.control_btns_container {
+    -fx-spacing: 20;
+    -fx-alignment: center-right;
+}
+
+#confirm_btn {
+    -fx-background-color: white;
+    -fx-pref-height: 30;
+    -fx-pref-width: 150;
+    -fx-background-color: white;
+}
+
+#reset_btn {
+    -fx-background-color: #e14545;
+    -fx-alignment:center;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+}
+
+
+.error_lbl {
+    -fx-text-fill: #FF0000;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}
+
+.info_lbl {
+    -fx-text-fill: #111111;
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+}

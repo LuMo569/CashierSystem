@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="200.0" styleClass="menu_container" stylesheets="@../../Styles/Admin/AdminMenu.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cashiersystem.Controllers.Admin.AdminMenuController">
+    <AnchorPane prefHeight="100.0" prefWidth="200.0" styleClass="title_container">
+      <VBox prefHeight="200.0" prefWidth="200.0" styleClass="title_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier System" />
+              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="-Admin-" />
+         </children>
+      </VBox>
+    </AnchorPane>
+    <AnchorPane prefHeight="500.0" prefWidth="200.0">
+      <VBox prefHeight="500.0" prefWidth="200.0" styleClass="control_btn_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+              <Button fx:id="admin_dashboard_btn" mnemonicParsing="false" text="Dashboard" />
+              <Button fx:id="change_item_price_btn" mnemonicParsing="false" text="Change Item Price" />
+         </children>
+      </VBox>
+    </AnchorPane>
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <VBox prefHeight="200.0" prefWidth="200.0" styleClass="logout_btn_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+              <Button fx:id="logout_btn" mnemonicParsing="false" text="Logout" />
+         </children>
+      </VBox>
+    </AnchorPane>
+</VBox>

@@ -1,0 +1,31 @@
+.dashboard_dontainer{
+    -fx-background-color: #EFE9E1;;
+}
+
+.greetings_container {
+    -fx-alignment: center_left;
+}
+.greetings_container Text {
+    -fx-font-size: 25;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+    -fx-font-weight: bold;
+}
+
+.clock_container {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.clock_lbl {
+    -fx-font-size: 40;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+    -fx-font-weight: bold;
+}
+
+.clock_container Text{
+    -fx-font-size: 16;
+    -fx-fill: #111111;
+    -fx-font-family: "Lucida Console";
+}

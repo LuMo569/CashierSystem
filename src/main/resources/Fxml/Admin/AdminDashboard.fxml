@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" styleClass="dashboard_dontainer" stylesheets="@../../Styles/Admin/AdminDashboard.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cashiersystem.Controllers.Admin.AdminDashboardController">
+   <VBox layoutX="21.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" styleClass="greetings_container" AnchorPane.bottomAnchor="750.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="410.0" AnchorPane.topAnchor="10.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hello Admin!" />
+   </VBox>
+   <VBox layoutX="510.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" styleClass="clock_container" AnchorPane.bottomAnchor="650.0" AnchorPane.leftAnchor="600.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Current time:" />
+      <Label fx:id="clock_lbl" styleClass="clock_lbl" />
+   </VBox>
+</AnchorPane>

@@ -1,0 +1,65 @@
+.login_container {
+    -fx-background-color: #EFE9E1;
+}
+
+
+.label {
+    -fx-font-size: 16;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: #111111;
+    -fx-font-weight: bold;
+}
+/* Logo Container Styles */
+.login_logo_container {
+    -fx-background-color: #181C14;
+    -fx-alignment: center;
+}
+
+.login_logo_container Text {
+    -fx-font-size: 3em;
+    -fx-fill: #EFE9E1;
+    -fx-font-family: "Lucida Console";
+    -fx-alignment: center;
+}
+
+/* Account Selector ChoiceBox Styles*/
+.account_selector {
+    -fx-background-color: "white";
+}
+.account_selector .arrow {
+    -fx-background-color: #111111;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color: "white";
+}
+
+/*Login Form Styles*/
+.login_form_container {
+    -fx-font-family: "Lucida Console";
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+
+.input_field {
+    -fx-background-color: "white";
+    -fx-pref-height: 35;
+    -fx-font-size: 18;
+}
+
+.login_form_container Button {
+    -fx-background-color: #111111;
+    -fx-text-fill: "white";
+    -fx-pref-width: 500;
+    -fx-pref-height: 30;
+    -fx-font-size: 18;
+    -fx-font-family: "Lucida Console";
+}
+
+.login_form_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.error_lbl {
+    -fx-text-fill: #FF0000;
+}
